@@ -268,6 +268,21 @@ if (!function_exists('dump')) {
     }
 }
 
+if (!function_exists('dd')) {
+    /**
+     * 浏览器友好的变量输出并中断执行
+     * @param mixed     $var 变量
+     * @param boolean   $echo 是否输出 默认为true 如果为false 则返回输出字符串
+     * @param string    $label 标签 默认为空
+     * @return void|string
+     */
+    function dd($var, $echo = true, $label = null)
+    {
+        return Debug::dump($var, $echo, $label);
+        die();
+    }
+}
+
 if (!function_exists('url')) {
     /**
      * Url生成
