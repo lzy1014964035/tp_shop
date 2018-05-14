@@ -270,7 +270,7 @@ if (!function_exists('dump')) {
 
 if (!function_exists('dd')) {
     /**
-     * 浏览器友好的变量输出并中断执行
+     * 函数原名为dump_die();浏览器友好的变量输出并中断执行
      * @param mixed     $var 变量
      * @param boolean   $echo 是否输出 默认为true 如果为false 则返回输出字符串
      * @param string    $label 标签 默认为空
