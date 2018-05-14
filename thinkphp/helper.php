@@ -278,8 +278,8 @@ if (!function_exists('dd')) {
      */
     function dd($var, $echo = true, $label = null)
     {
-        return Debug::dump($var, $echo, $label);
-        die();
+        Debug::dump($var, $echo, $label);
+        die;
     }
 }
 
