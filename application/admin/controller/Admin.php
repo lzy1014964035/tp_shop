@@ -87,7 +87,14 @@ class Admin extends Base {
         }
         return $this->fetch();
     }
-    
+
+    /**\
+     * 新建管理员
+     * @return mixed
+     * @throws \think\db\exception\DataNotFoundException
+     * @throws \think\db\exception\ModelNotFoundException
+     * @throws \think\exception\DbException
+     */
     public function admin_info(){
     	$admin_id = I('get.admin_id/d',0);
     	if($admin_id){
