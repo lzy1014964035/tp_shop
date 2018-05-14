@@ -1,0 +1,4 @@
+<?php
+//000000000001
+ exit();?>
+[{"order_id":829,"order_sn":"201609191839424056","user_id":2867,"order_status":0,"shipping_status":0,"pay_status":0,"consignee":"\u54c8\u54c8","country":0,"province":1,"city":2,"district":0,"twon":0,"address":"\u65a4\u65a4\u8ba1\u8f83","zipcode":"078754","mobile":"13835211221","email":"","shipping_code":"shentong","shipping_name":"\u7533\u901a\u7269\u6d41","pay_code":"","pay_name":"","invoice_title":"","taxpayer":"","goods_price":"210.01","shipping_price":"0.00","user_money":"0.00","coupon_price":"0.00","integral":0,"integral_money":"0.00","order_amount":"210.01","total_amount":"210.01","add_time":1474281582,"shipping_time":0,"confirm_time":0,"pay_time":0,"transaction_id":null,"prom_id":null,"prom_type":0,"order_prom_id":0,"order_prom_amount":"0.00","discount":"0.00","user_note":"","admin_note":"","parent_sn":null,"is_distribut":1,"paid_money":"0.00","deleted":0}]

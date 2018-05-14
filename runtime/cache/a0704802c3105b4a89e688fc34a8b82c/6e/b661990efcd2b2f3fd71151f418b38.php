@@ -1,0 +1,4 @@
+<?php
+//000000000001
+ exit();?>
+{"goods_id":144,"cat_id":1,"extend_cat_id":0,"goods_sn":"TP0000144","goods_name":"\u5927\u7c73\u624b\u673a","click_count":3,"brand_id":0,"store_count":283,"comment_count":0,"weight":500,"volume":0.2,"market_price":"1100.00","shop_price":"1000.00","cost_price":"900.00","price_ladder":"a:1:{i:0;a:2:{s:6:\"amount\";i:3;s:5:\"price\";d:900;}}","keywords":"\u624b\u673a \u5927\u7c73","goods_remark":"\u5927\u7c73\u624b\u673a","goods_content":"","mobile_content":null,"original_img":"\/public\/upload\/goods\/2018\/05-14\/9ef2c49bc4cc0b19a0cad1875b0441b2.jpg","is_virtual":0,"virtual_indate":-28800,"virtual_limit":0,"virtual_refund":1,"is_on_sale":1,"is_free_shipping":1,"on_time":1526287009,"sort":50,"is_recommend":1,"is_new":0,"is_hot":0,"last_update":0,"goods_type":4,"spec_type":4,"give_integral":10,"exchange_integral":1,"suppliers_id":1,"sales_sum":0,"prom_type":0,"prom_id":0,"commission":"50.00","spu":"","sku":"","template_id":0,"video":""}

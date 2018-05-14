@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:41:"./application/admin/view/index\index.html";i:1523155747;s:64:"I:\project\demo\oscshop2\application\admin\view\public\left.html";i:1522317281;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:41:"./application/admin/view/index\index.html";i:1526292936;s:64:"I:\project\demo\oscshop2\application\admin\view\public\left.html";i:1522317281;}*/ ?>
 <!doctype html>
 <html>
 <head>
