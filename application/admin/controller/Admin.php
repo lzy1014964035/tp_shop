@@ -204,13 +204,22 @@ class Admin extends Base {
         $Verify->entry("admin_login");
         exit();
     }
-    
+
+    /**
+     * 角色列表
+     * @return mixed
+     */
     public function role(){
     	$list = D('admin_role')->order('role_id desc')->select();
     	$this->assign('list',$list);
     	return $this->fetch();
     }
-    
+
+
+    /**
+     * 新建角色-跳转新建页面
+     * @return mixed
+     */
     public function role_info(){
     	$role_id = I('get.role_id/d');
     	$detail = array();
@@ -232,7 +241,11 @@ class Admin extends Base {
 		$this->assign('modules',$modules);
     	return $this->fetch();
     }
-    
+
+    /**
+     * 新建角色-表单处理
+     * @return mixed
+     */
     public function roleSave(){
     	$data = I('post.');
     	$res = $data['data'];
@@ -261,7 +274,11 @@ class Admin extends Base {
 			$this->error("操作失败!",U('Admin/Admin/role'));
 		}
     }
-    
+
+    /**
+     * 删除角色-表单处理
+     * @return mixed
+     */
     public function roleDel(){
     	$role_id = I('post.role_id/d');
     	$admin = D('admin')->where('role_id',$role_id)->find();
@@ -276,7 +293,14 @@ class Admin extends Base {
     		}
     	}
     }
-    
+
+    /**
+     * 管理员日志列表
+     * @return mixed
+     * @throws \think\db\exception\DataNotFoundException
+     * @throws \think\db\exception\ModelNotFoundException
+     * @throws \think\exception\DbException
+     */
     public function log(){
     	$p = I('p/d',1);
     	$logs = DB::name('admin_log')->alias('l')->join('__ADMIN__ a','a.admin_id =l.admin_id')->order('log_time DESC')->page($p.',20')->select();
