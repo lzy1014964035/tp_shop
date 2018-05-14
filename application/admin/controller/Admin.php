@@ -89,7 +89,7 @@ class Admin extends Base {
     }
 
     /**\
-     * 新建管理员
+     * 新建管理员-进入新建页面
      * @return mixed
      * @throws \think\db\exception\DataNotFoundException
      * @throws \think\db\exception\ModelNotFoundException
@@ -108,7 +108,14 @@ class Admin extends Base {
     	$this->assign('role',$role);
     	return $this->fetch();
     }
-    
+
+    /**\
+     * 新建管理员-处理表单
+     * @return mixed
+     * @throws \think\db\exception\DataNotFoundException
+     * @throws \think\db\exception\ModelNotFoundException
+     * @throws \think\exception\DbException
+     */
     public function adminHandle(){
     	$data = I('post.');
     	if(empty($data['password'])){
