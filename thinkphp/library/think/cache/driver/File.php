@@ -123,7 +123,7 @@ class File extends Driver
                 //启用数据压缩
                 $content = gzuncompress($content);
             }
-            $content = unserialize($content);
+            $content = json_decode($content,true);
             return $content;
         } else {
             return $default;
@@ -150,7 +150,7 @@ class File extends Driver
         if ($this->tag && !is_file($filename)) {
             $first = true;
         }
-        $data = serialize($value);
+        $data = json_encode($value);
         if ($this->options['data_compress'] && function_exists('gzcompress')) {
             //数据压缩
             $data = gzcompress($data, 3);
@@ -215,10 +215,7 @@ class File extends Driver
     public function rm($name)
     {
         $filename = $this->getCacheKey($name);
-        try {
-            return $this->unlink($filename);
-        } catch (\Exception $e) {
-        }
+        return $this->unlink($filename);
     }
 
     /**

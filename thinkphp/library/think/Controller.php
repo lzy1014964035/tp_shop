@@ -52,9 +52,34 @@ class Controller
      */
     public function __construct(Request $request = null)
     {
-        $this->view    = View::instance(Config::get('template'), Config::get('view_replace_str'));
+        $this->view = View::instance(Config::get('template'), Config::get('view_replace_str'));
         $this->request = is_null($request) ? Request::instance() : $request;
 
+	    $this->request->isAjax() ? define('IS_AJAX',true) : define('IS_AJAX',false);  //
+        ($this->request->method() == 'GET') ? define('IS_GET',true) : define('IS_GET',false);  // 
+        ($this->request->method() == 'POST') ? define('IS_POST',true) : define('IS_POST',false);  // 
+        
+        define('MODULE_NAME',$this->request->module());  // 当前模块名称是
+        define('CONTROLLER_NAME',$this->request->controller()); // 当前控制器名称
+        define('ACTION_NAME',$this->request->action()); // 当前操作名称是
+        define('PREFIX',C('database.prefix')); // 数据库表前缀               
+        $this->assign('action',ACTION_NAME);
+        $this->assign('template_now_time', time());//模板现在时间
+        if(isMobile() && strtolower(MODULE_NAME) == 'home'  && strtolower(CONTROLLER_NAME) == 'index' && strtolower(ACTION_NAME) == 'index')
+        {
+            header("Location: ".U('Mobile/Index/index'));
+            exit();
+         }
+
+        read_html_cache(); // 尝试从缓存中读取		
+        
+        // 自动清除缓存
+//        if(rand(1,100) == 100)
+//        {
+//            delFile(RUNTIME_PATH);
+//            Cache::clear();        
+//        }
+        
         // 控制器初始化
         $this->_initialize();
 
@@ -116,8 +141,10 @@ class Controller
      * @return mixed
      */
     protected function fetch($template = '', $vars = [], $replace = [], $config = [])
-    {
-        return $this->view->fetch($template, $vars, $replace, $config);
+    {        
+        $html = $this->view->fetch($template, $vars, $replace, $config);
+        write_html_cache($html); // 尝试写入静态缓存
+        return $html;        
     }
 
     /**
@@ -202,15 +229,9 @@ class Controller
         }
 
         // 批量验证
-        if ($batch || $this->batchValidate) {
-            $v->batch(true);
-        }
-
+        if ($batch || $this->batchValidate) $v->batch(true);
         // 设置错误信息
-        if (is_array($message)) {
-            $v->message($message);
-        }
-
+        if (is_array($message)) $v->message($message);
         // 使用回调验证
         if ($callback && is_callable($callback)) {
             call_user_func_array($callback, [$v, &$data]);

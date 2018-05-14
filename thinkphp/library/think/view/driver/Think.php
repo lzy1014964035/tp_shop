@@ -34,8 +34,6 @@ class Think
         'view_depr'   => DS,
         // 是否开启模板编译缓存,设为false则每次都会重新编译
         'tpl_cache'   => true,
-        // 默认模板渲染规则 1 解析为小写+下划线 2 全部转换小写
-        'auto_rule'   => 1,
     ];
 
     public function __construct($config = [])
@@ -79,6 +77,11 @@ class Think
         }
         // 模板不存在 抛出异常
         if (!is_file($template)) {
+			
+			if(strstr($template,'pre_sell_list')){
+				header("Content-type: text/html; charset=utf-8");
+				exit('要使用预售功能请联系TPshop官网客服,官网地址 www.tp-shop.cn');
+			}
             throw new TemplateNotFoundException('template not exists:' . $template, $template);
         }
         // 记录视图信息
@@ -129,7 +132,7 @@ class Think
             if ($controller) {
                 if ('' == $template) {
                     // 如果模板文件名为空 按照默认规则定位
-                    $template = str_replace('.', DS, $controller) . $depr . (1 == $this->config['auto_rule'] ? Loader::parseName($request->action(true)) : $request->action());
+                    $template = str_replace('.', DS, $controller) . $depr . $request->action();
                 } elseif (false === strpos($template, $depr)) {
                     $template = str_replace('.', DS, $controller) . $depr . $template;
                 }

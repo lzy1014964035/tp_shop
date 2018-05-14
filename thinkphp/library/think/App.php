@@ -135,6 +135,9 @@ class App
                 $config['request_cache_expire'],
                 $config['request_cache_except']
             );
+            // 兼容以前模式 加回两个参数
+            $_GET = array_merge($_GET,Request::instance()->route());
+            $_REQUEST = array_merge($_REQUEST,Request::instance()->route());
 
             $data = self::exec($dispatch, $config);
         } catch (HttpResponseException $exception) {
@@ -555,11 +558,7 @@ class App
 
         // 获取操作名
         $actionName = strip_tags($result[2] ?: $config['default_action']);
-        if (!empty($config['action_convert'])) {
-            $actionName = Loader::parseName($actionName, 1);
-        } else {
-            $actionName = $convert ? strtolower($actionName) : $actionName;
-        }
+        $actionName = $convert ? strtolower($actionName) : $actionName;
 
         // 设置当前请求的控制器、操作
         $request->controller(Loader::parseName($controller, 1))->action($actionName);
@@ -575,6 +574,10 @@ class App
                 $config['empty_controller']
             );
         } catch (ClassNotFoundException $e) {
+                      if (is_null($instance) && $controller == 'Distribut') {
+			header("Content-type: text/html; charset=utf-8");
+			exit('要使用分销模块请联系TPshop官网客服,官网地址 www.tp-shop.cn');
+                       }   
             throw new HttpException(404, 'controller not exists:' . $e->getClass());
         }
 
@@ -585,18 +588,18 @@ class App
         if (is_callable([$instance, $action])) {
             // 执行操作方法
             $call = [$instance, $action];
-            // 严格获取当前操作方法名
-            $reflect    = new \ReflectionMethod($instance, $action);
-            $methodName = $reflect->getName();
-            $suffix     = $config['action_suffix'];
-            $actionName = $suffix ? substr($methodName, 0, -strlen($suffix)) : $methodName;
-            $request->action($actionName);
-
         } elseif (is_callable([$instance, '_empty'])) {
             // 空操作
             $call = [$instance, '_empty'];
             $vars = [$actionName];
         } else {
+			
+		//echo $instance.$actionName ;
+        if ($actionName == 'pre_sell_list') {
+			header("Content-type: text/html; charset=utf-8");
+			exit('要使用预售功能请联系TPshop官网客服,官网地址 www.tp-shop.cn');
+        }
+			
             // 操作不存在
             throw new HttpException(404, 'method not exists:' . get_class($instance) . '->' . $action . '()');
         }
@@ -651,7 +654,15 @@ class App
 
         // 路由无效 解析模块/控制器/操作/参数... 支持控制器自动搜索
         if (false === $result) {
+            //兼容以前的老方法
+            if(($m = $request->get('m')) && ($c = $request->get('c')) && ($a = $request->get('a')))
+            {
+                $result = ['type' => 'module', 'module' => [$m, $c, $a]];//兼容以前的版本
+            }
+            else
+	    {	
             $result = Route::parseUrl($path, $depr, $config['controller_auto_search']);
+	    }
         }
 
         return $result;

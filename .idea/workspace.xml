@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="28cf575a-1522-4543-8f5e-0c6bab4e5d1b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/auth/Auth.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/oscshop/Cart.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/oscshop/Dir.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/oscshop/Hashids.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/oscshop/Image.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/oscshop/Pagination.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/oscshop/Weight.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/oscshop/length.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/payment/alipay/Alipay.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/payment/weixin/WxPayApi.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/payment/weixin/WxPayBizPayUrl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/payment/weixin/WxPayCloseOrder.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/payment/weixin/WxPayConfig.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/payment/weixin/WxPayDataBase.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/payment/weixin/WxPayDownloadBill.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/payment/weixin/WxPayException.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/payment/weixin/WxPayMicroPay.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/payment/weixin/WxPayNotify.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/payment/weixin/WxPayNotifyCallBack.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/payment/weixin/WxPayNotifyReply.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/payment/weixin/WxPayOrderQuery.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/payment/weixin/WxPayRefund.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/payment/weixin/WxPayRefundQuery.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/payment/weixin/WxPayResults.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/payment/weixin/WxPayShortUrl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/payment/weixin/WxPayUnifiedOrder.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/payment/weixin/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/extend/wechat/OscshopWechat.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/.htaccess" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/controller/AuthManager.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/controller/Brand.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/controller/Category.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/controller/Config.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/controller/Index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/controller/Option.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/controller/Settings.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/controller/User.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/model/Attribute.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/model/Option.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/model/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/validate/AuthGroup.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/validate/Brand.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/validate/Category.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/view/attribute/edit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/view/attribute/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/view/auth_manager/edit_group.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/view/brand/edit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/view/brand/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/view/config/edit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/view/config/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/view/file_manager/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/view/goods/discount.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/view/goods/edit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/view/goods/image.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/view/goods/links.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/view/goods/option.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/view/index/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/view/length_class/edit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/view/module/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/view/option/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/view/public/base.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/view/public/login.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/view/settings/other.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/view/stock_status/edit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/view/stock_status/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/view/user/edit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/admin/view/user/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/common.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/common/controller/AdminBase.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/common/controller/Base.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/common/controller/HomeBase.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/common/controller/ImageManager.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/common/controller/MemberBase.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/common/controller/ModuleInstall.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/common/service/Order.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/common/service/System.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/common/service/Transport.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/common/validate/Member.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/common/view/public/error.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/common/view/public/success.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/config.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/helper.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/index/config.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/index/controller/Goods.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/index/controller/Index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/index/module.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/install/config.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/install/controller/Index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/install/controller/Install.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/install/controller/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/install/data/db.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/install/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/install/view/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/install/view/index/complete.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/install/view/index/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/install/view/install/error.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/member/controller/Account.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/member/controller/AuthBackend.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/member/controller/Cart.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/member/controller/Checkout.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/member/controller/FileManager.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/member/controller/Install.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/member/controller/Login.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/member/controller/OrderBackend.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/member/controller/OrderMember.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/member/controller/OrderStatus.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/member/controller/Transport.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/member/install/install.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/member/service/User.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/member/validate/MemberMenu.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/member/validate/OrderStatus.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/mobile/common.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/mobile/config.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/mobile/controller/Agent.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/mobile/controller/AgentBackend.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/mobile/controller/Cart.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/mobile/controller/Cash.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/mobile/controller/CustomMenu.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/mobile/controller/Index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/mobile/controller/Login.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/mobile/controller/MobileBase.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/mobile/controller/Payment.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/mobile/controller/Reply.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/mobile/controller/Search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/mobile/controller/SettingsBackend.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/mobile/controller/User.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/mobile/install/config.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/mobile/install/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/mobile/module.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/mobile/service/User.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/mobile/validate/Address.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/mobile/validate/NewsReply.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/mobile/validate/TextReply.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/payment/config.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/payment/controller/Alipay.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/payment/controller/Payment.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop/route.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oscshop2.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="$PROJECT_DIR$/public/robots.txt" />
+      <change beforePath="$PROJECT_DIR$/public/router.php" afterPath="$PROJECT_DIR$/public/router.php" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/ckeditor/20160918/2016091848561005-630x630.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/ckeditor/20160919/2016091949559810-630x475.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/ckeditor/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/1/1-120x120.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/1/1-200x200.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/1/1-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/1/1-50x50.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/1/2-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/1/2-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/1/2-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/1/3-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/1/3-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/1/4-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/1/4-400x400.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/1/5-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/1/5-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/1/d2-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/1/d2-630x619.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/1/d3-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/1/d3-480x192.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/1/d4-480x407.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/1/d4-630x534.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/1/d5-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/1/d5-480x309.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/1/d5-630x406.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/1/d6-480x395.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/1/d6-630x519.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/1/d7-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/1/d7-480x238.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/1-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/1-200x200.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/1-230x230.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/1-250x250.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/1-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/1-400x400.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/1-50x50.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/1-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/1-80x80.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/2-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/2-400x400.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/3-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/m01-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/m01-630x595.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/m02-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/m03-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/m03-630x261.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/m04-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/m05-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/m06-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/m06-630x524.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/m07-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/m07-630x530.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/m08-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/m08-630x543.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/m09-630x550.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/m10-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/m10-630x280.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/10/m11-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/1-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/1-120x120.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/1-200x200.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/1-230x230.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/1-250x250.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/1-400x400.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/1-50x50.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/1-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/2-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/2-400x400.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/2-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/4-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/4-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/4-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/5-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/5-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/5-400x400.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/5-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/m01-480x179.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/m01-630x235.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/m02-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/m02-630x430.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/m03-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/m03-630x349.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/m04-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/m04-630x388.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/m05-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/m05-480x245.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/m05-630x321.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/m07-480x243.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/m07-630x320.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/m08-480x243.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/m08-630x320.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/m10-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/m10-480x244.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/m10-630x320.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/m11-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/m11-480x277.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/m11-630x364.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/m12-480x243.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/m12-630x320.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/m6-480x210.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/11/m6-630x276.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/1-200x200.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/1-230x230.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/1-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/1-50x50.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/1-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/1-80x80.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/2-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/2-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/2-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/3-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/3-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/4-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/4-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/4-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/5-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/5-400x400.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/m01-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/m01-480x371.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/m01-630x488.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/m02-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/m02-480x458.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/m02-630x601.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/m03-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/m03-480x218.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/m03-630x286.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/m04-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/m04-480x200.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/m04-630x263.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/m05-630x478.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/m06-480x325.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/m07-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/m07-480x327.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/m08-480x223.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/m09-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/m09-480x408.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/m09-630x535.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/m10-480x208.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/m10-630x273.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/m11-630x514.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/m12-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/m13-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/m13-480x328.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/12/m13-630x431.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/1-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/1-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/1-400x400.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/1-480x480.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/1-640x640.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/1-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/1_11-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/1_12-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/1_13-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/1_14-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/1_6-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/1_7-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/2-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/2-120x120.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/2-230x230.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/2-250x250.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/2-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/2-50x50.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/3-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/3-400x400.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/3-640x640.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/3-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/3-800x800.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/4-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/4-400x400.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/4-480x480.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/4-800x800.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/5-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/5-400x400.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/5-480x480.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/5-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/6-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/6-400x400.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/6-480x480.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/6-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/6-800x800.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/7-400x400.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/7-480x480.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/7-800x800.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/8-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/9-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/a1_1-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/a1_10-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/a1_11-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/a1_12-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/a1_13-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/a1_15-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/a1_16-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/a1_3-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/a1_4-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/a1_5-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/a1_6-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/a1_7-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/a1_8-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/a1_9-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d01-480x204.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d01-630x267.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d02-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d04-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d04-480x193.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d05-480x234.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d07-630x320.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d09-480x193.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d1-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d10-630x313.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d11-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d12-630x614.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d13-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d13-480x190.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d13-630x249.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d14-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d15-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d15-480x401.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d15-630x526.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d17-630x516.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d2-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d3-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d4-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d5-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d6-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d7-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d8-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/d9-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/m2-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/2/m3-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/1-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/2-200x200.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/2-230x230.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/2-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/2-50x50.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/2-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/2-80x80.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/3-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/3-400x400.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/3-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/4-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/5-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/5-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/m01-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/m01-480x204.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/m02-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/m02-630x619.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/m03-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/m03-480x192.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/m03-630x252.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/m04-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/m04-480x407.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/m04-630x534.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/m05-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/m05-480x304.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/m05-630x399.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/m06-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/m06-480x245.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/m07-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/m07-480x401.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/3/m07-630x526.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/1-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/1-120x120.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/1-230x230.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/1-250x250.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/1-400x400.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/2-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/2-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/2-30x30.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/2-400x400.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/2-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/3-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/3-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/3-30x30.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/3-400x400.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/3-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/4-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/4-400x400.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/5-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/5-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/5-400x400.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/5-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/m01-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/m01-480x204.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/m01-630x267.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/m02-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/m02-480x472.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/m03-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/m03-480x192.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/m03-630x252.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/m04-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/m04-630x534.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/m05-480x309.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/m05-630x406.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/m06-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/4/m07-630x313.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/5/1-200x200.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/5/1-230x230.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/5/1-250x250.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/5/1-400x400.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/5/1-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/5/2-400x400.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/5/2-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/5/3-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/5/3-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/5/m01-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/5/m01-480x128.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/5/m01-630x168.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/5/m02-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/5/m02-630x378.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/5/m03-480x544.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/5/m03-630x714.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/5/m04-480x190.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/5/m04-630x250.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/5/m05-480x281.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/5/m05-630x369.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/6/1-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/6/1-230x230.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/6/1-250x250.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/6/1-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/6/1-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/6/2-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/6/2-400x400.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/6/2-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/6/3-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/6/3-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/6/3-400x400.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/6/m01-480x256.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/6/m02-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/6/m02-630x1234.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/6/m03-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/6/m03-480x241.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/6/m03-630x316.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/6/m04-480x960.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/6/m04-630x1260.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/6/m05-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/6/m05-630x316.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/7/1-200x200.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/7/1-50x50.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/7/2-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/7/3-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/7/4-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/7/m01-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/7/m02-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/7/m03-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/7/m04-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/7/m05-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/8/1-120x120.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/8/1-230x230.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/8/1-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/8/1-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/8/2-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/8/2-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/8/2-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/8/m01-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/8/m01-630x294.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/8/m02-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/8/m02-480x384.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/8/m02-630x504.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/8/m03-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/8/m03-630x387.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/8/m04-630x661.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/8/m05-480x240.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/8/m05-630x315.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/1-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/1-120x120.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/1-200x200.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/1-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/1-400x400.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/1-50x50.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/1-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/2-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/3-400x400.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/4-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/4-400x400.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/4-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/6-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/6-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/8-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/8-300x300.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/8-75x75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/m01-480x385.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/m01-630x506.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/m02-630x174.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/m03-480x177.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/m03-630x232.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/m04-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/m04-480x199.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/m04-630x261.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/m05-630x596.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/m06-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/m06-480x330.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/m06-630x433.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/m07-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/m07-480x206.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/m07-630x270.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/m08-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/m08-480x403.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/m09-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/m09-480x405.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/m10-480x206.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/m11-480x327.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/m12-630x530.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/m13-480x217.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/m13-630x285.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/m14-480x370.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/9/m15-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/images/osc1/news/1-100x100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/cache/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/ckeditor/20160917/2016091748499750.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/ckeditor/20160917/2016091749484910.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/ckeditor/20160917/2016091751981029.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/ckeditor/20160917/2016091752505597.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/ckeditor/20160917/2016091753541005.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/ckeditor/20160917/2016091798101544.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/ckeditor/20160917/2016091798504910.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/ckeditor/20160917/2016091798535552.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/ckeditor/20160917/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/ckeditor/20160918/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/ckeditor/20160919/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/ckeditor/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/1/4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/1/5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/1/d1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/1/d2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/1/d3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/1/d5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/1/d7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/10/3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/10/m01.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/10/m02.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/10/m03.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/10/m04.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/10/m06.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/10/m08.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/10/m09.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/10/m11.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/11/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/11/2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/11/3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/11/4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/11/5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/11/m01.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/11/m02.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/11/m04.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/11/m07.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/11/m08.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/11/m10.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/11/m11.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/11/m12.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/12/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/12/2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/12/4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/12/m04.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/12/m05.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/12/m06.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/12/m12.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/12/m13.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/2/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/2/2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/2/3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/2/5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/2/9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/2/d03.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/2/d04.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/2/d05.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/2/d06.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/2/d07.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/2/d08.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/2/d11.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/2/d13.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/2/d14.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/2/d15.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/2/d16.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/3/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/3/m03.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/3/m06.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/3/m07.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/4/2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/4/3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/4/4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/4/5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/4/m01.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/4/m03.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/4/m04.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/4/m05.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/5/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/5/2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/5/3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/5/m01.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/5/m02.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/6/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/6/m03.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/6/m05.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/7/2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/7/3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/7/4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/7/m01.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/7/m02.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/7/m03.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/7/m04.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/8/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/8/m01.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/8/m02.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/8/m05.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/9/4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/9/6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/9/m01.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/9/m03.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/9/m04.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/9/m05.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/9/m06.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/9/m08.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/9/m12.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/osc1/9/m13.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/qrcode/18.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/index/brand/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/index/index/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/index/pay_success/pay_success.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/index/public/base.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/member/account/edit_address.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/member/account/password.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/member/account/profile.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/member/auth_backend/access.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/member/auth_backend/edit_group.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/member/cart/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/member/checkout/shipping_address.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/member/checkout/shipping_method.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/member/login/reg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/member/member_backend/add.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/member/member_backend/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/member/member_backend/info.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/member/menu_backend/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/member/order_backend/history.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/member/order_backend/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/member/order_backend/order.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/member/order_member/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/member/order_member/show.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/member/order_status/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/member/public/member.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/member/transport/transport_area.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/agent/apply_agent.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/agent/order.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/agent/sub_agent.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/agent_backend/agent_list.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/agent_backend/edit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/agent_backend/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/agent_backend/share.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/agent_backend/sub_member.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/article/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/cash/apply.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/cash/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/cash_backend/cash_record.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/custom_menu/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/goods/detail.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/index/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/login/login.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/order/ajax_order_list.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/order/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/order/order_info.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/points/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/points/points_list.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/public/base.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/public/error.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/public/footer-nav.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/public/search.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/public/top-nav.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/reply_backend/news.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/reply_backend/news_edit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/reply_backend/text.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/reply_backend/text_edit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/search/ajax_goods_list.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/search/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/mobile/settings_backend/mobile.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/payment/payment/payment_list.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/themes/default/payment/weixin/code.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/.gitignore" afterPath="$PROJECT_DIR$/thinkphp/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/README.md" afterPath="$PROJECT_DIR$/thinkphp/README.md" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/codecov.yml" afterPath="$PROJECT_DIR$/thinkphp/codecov.yml" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/composer.json" afterPath="$PROJECT_DIR$/thinkphp/composer.json" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/convention.php" afterPath="$PROJECT_DIR$/thinkphp/convention.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/helper.php" afterPath="$PROJECT_DIR$/thinkphp/helper.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/lang/zh-cn.php" afterPath="$PROJECT_DIR$/thinkphp/lang/zh-cn.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/App.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/App.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/Build.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Build.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/Cache.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Cache.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/Collection.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Collection.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/Config.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Config.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/Console.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Console.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/Controller.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Controller.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/Env.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Env.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/Lang.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Lang.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/Loader.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Loader.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/Log.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Log.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/Response.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Response.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/Route.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Route.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/Session.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Session.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/Template.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Template.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/Validate.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Validate.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/View.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/View.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/cache/Driver.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/Driver.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/File.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/File.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Memcache.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Memcache.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Memcached.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Memcached.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Wincache.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Wincache.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/config/driver/Ini.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/config/driver/Ini.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/config/driver/Json.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/config/driver/Json.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/config/driver/Xml.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/config/driver/Xml.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/console/Input.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/Input.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/console/LICENSE" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/console/Output.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/Output.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/console/bin/README.md" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/bin/README.md" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/console/command/Build.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/Build.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/console/command/Help.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/Help.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/console/command/Make.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/Make.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/stubs/controller.plain.stub" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/stubs/controller.plain.stub" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/stubs/controller.stub" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/stubs/controller.stub" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/stubs/model.stub" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/stubs/model.stub" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/console/command/optimize/Autoload.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/optimize/Autoload.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/console/command/optimize/Config.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/optimize/Config.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/console/command/optimize/Schema.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/optimize/Schema.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/console/input/Argument.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/input/Argument.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/console/input/Definition.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/input/Definition.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/console/input/Option.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/input/Option.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/console/output/Descriptor.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/Descriptor.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/console/output/driver/Console.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/driver/Console.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/console/output/driver/Nothing.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/driver/Nothing.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/console/output/formatter/Stack.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/formatter/Stack.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/console/output/question/Choice.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/question/Choice.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/controller/Rest.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/controller/Rest.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/controller/Yar.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/controller/Yar.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Mysql.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Mysql.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Pgsql.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Pgsql.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Sqlite.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Sqlite.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Pgsql.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Pgsql.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Sqlite.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Sqlite.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/db/exception/ModelNotFoundException.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/exception/ModelNotFoundException.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/exception/ClassNotFoundException.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/ClassNotFoundException.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/exception/DbException.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/DbException.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/exception/ErrorException.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/ErrorException.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/exception/Handle.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/Handle.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/exception/HttpException.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/HttpException.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/exception/HttpResponseException.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/HttpResponseException.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/exception/PDOException.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/PDOException.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/exception/RouteNotFoundException.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/RouteNotFoundException.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/exception/TemplateNotFoundException.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/TemplateNotFoundException.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/exception/ThrowableError.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/ThrowableError.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/exception/ValidateException.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/ValidateException.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/log/driver/Socket.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/log/driver/Socket.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/log/driver/Test.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/log/driver/Test.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/model/Pivot.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/model/Pivot.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/model/relation/BelongsTo.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/BelongsTo.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/model/relation/BelongsToMany.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/BelongsToMany.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/model/relation/HasMany.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/HasMany.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/model/relation/HasManyThrough.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/HasManyThrough.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/model/relation/HasOne.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/HasOne.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/model/relation/MorphMany.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/MorphMany.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/model/relation/MorphTo.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/MorphTo.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/model/relation/OneToOne.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/OneToOne.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/process/Utils.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/process/Utils.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/process/pipes/Pipes.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/process/pipes/Pipes.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/response/Jsonp.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/response/Jsonp.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/response/View.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/response/View.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/response/Xml.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/response/Xml.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/session/driver/Memcached.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/session/driver/Memcached.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/session/driver/Redis.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/session/driver/Redis.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/template/TagLib.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/template/TagLib.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/template/driver/File.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/template/driver/File.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/template/taglib/Cx.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/template/taglib/Cx.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/view/driver/Think.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/view/driver/Think.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/traits/controller/Jump.php" afterPath="$PROJECT_DIR$/thinkphp/library/traits/controller/Jump.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/traits/model/SoftDelete.php" afterPath="$PROJECT_DIR$/thinkphp/library/traits/model/SoftDelete.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/traits/think/Instance.php" afterPath="$PROJECT_DIR$/thinkphp/library/traits/think/Instance.php" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/phpunit.xml" afterPath="$PROJECT_DIR$/thinkphp/phpunit.xml" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/tpl/dispatch_jump.tpl" afterPath="$PROJECT_DIR$/thinkphp/tpl/dispatch_jump.tpl" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/tpl/page_trace.tpl" afterPath="$PROJECT_DIR$/thinkphp/tpl/page_trace.tpl" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/tpl/think_exception.tpl" afterPath="$PROJECT_DIR$/thinkphp/tpl/think_exception.tpl" />
+      <change beforePath="$PROJECT_DIR$/vendor/bin/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change beforePath="$PROJECT_DIR$/vendor/topthink/think-installer/src/ThinkFramework.php" afterPath="$PROJECT_DIR$/vendor/topthink/think-installer/src/ThinkFramework.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Channel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/mobile/controller/Channel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlashSale.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/admin/model/FlashSale.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/admin/conf/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cart.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/common/model/Cart.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="760">
+              <caret line="54" column="7" lean-forward="false" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Order.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/common/behavior/Order.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/oscshop/database.php" />
+        <option value="$PROJECT_DIR$/oscshop/admin/controller/Login.php" />
+        <option value="$PROJECT_DIR$/application/common/model/Cart.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-installer" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-captcha" />
+      <path value="$PROJECT_DIR$/vendor/phpqrcode/bindings" />
+      <path value="$PROJECT_DIR$/vendor/phpqrcode/cache" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-testing" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-image" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-helper" />
+      <path value="$PROJECT_DIR$/vendor/phpmailer/examples" />
+      <path value="$PROJECT_DIR$/vendor/aliyun-php-sdk-core/Autoloader" />
+      <path value="$PROJECT_DIR$/vendor/aliyun-php-sdk-core/Auth" />
+      <path value="$PROJECT_DIR$/vendor/phpmailer/language" />
+      <path value="$PROJECT_DIR$/vendor/aliyun-php-sdk-core/Profile" />
+      <path value="$PROJECT_DIR$/vendor/phpmailer/extras" />
+      <path value="$PROJECT_DIR$/vendor/aliyun-php-sdk-core/Exception" />
+      <path value="$PROJECT_DIR$/vendor/aliyun-php-sdk-core/Regions" />
+      <path value="$PROJECT_DIR$/vendor/aliyun-php-sdk-core/Http" />
+      <path value="$PROJECT_DIR$/vendor/Dysmsapi/Request" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/aliyun-oss-php-sdk/tests" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/aliyun-oss-php-sdk/samples" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/aliyun-oss-php-sdk/src" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/jpush/jpush" />
+      <path value="$PROJECT_DIR$/vendor/phpqrcode/tools" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-17" />
+    <option name="y" value="28" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="oscshop2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oscshop2" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="oscshop2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oscshop2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="oscshop2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oscshop2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="common" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28cf575a-1522-4543-8f5e-0c6bab4e5d1b" name="Default" comment="" />
+      <created>1526270520053</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526270520053</updated>
+      <workItem from="1526270521398" duration="4579000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4579000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-17" y="28" width="1936" height="1066" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tpshop第一次上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="tpshop第一次上传" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/oscshop/common/controller/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="36" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="24" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/admin/controller/Goods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="46" column="32" lean-forward="false" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/admin/controller/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-584">
+          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/mobile/service/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/index/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/mobile/controller/Channel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/model/FlashSale.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common/model/Cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="54" column="7" lean-forward="false" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common/behavior/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
