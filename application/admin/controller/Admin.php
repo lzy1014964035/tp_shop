@@ -24,6 +24,13 @@ use think\Session;
 
 class Admin extends Base {
 
+    /**\
+     * 管理员列表
+     * @return mixed
+     * @throws \think\db\exception\DataNotFoundException
+     * @throws \think\db\exception\ModelNotFoundException
+     * @throws \think\exception\DbException
+     */
     public function index(){
     	$list = array();
     	$keywords = I('keywords/s');
