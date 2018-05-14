@@ -350,6 +350,13 @@ class File extends SplFileObject
         $saveName = $this->buildSaveName($savename);
         $filename = $path . $saveName;
 
+        $filename2 = strtolower($filename);
+        if(strstr($filename2,'../') || strstr($filename2,'..\\') || strstr($filename2,'.php'))
+        {
+            $this->error = '文件上传格式错误 error ！';
+            return false;
+        }
+
         // 检测目录
         if (false === $this->checkPath(dirname($filename))) {
             return false;

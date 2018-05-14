@@ -90,8 +90,6 @@ abstract class Connection
         'master_num'      => 1,
         // 指定从服务器序号
         'slave_no'        => '',
-        // 模型写入后自动读取主服务器
-        'read_master'     => false,
         // 是否严格检查字段是否存在
         'fields_strict'   => true,
         // 数据返回类型
@@ -345,11 +343,13 @@ abstract class Connection
      */
     public function query($sql, $bind = [], $master = false, $pdo = false)
     {
+        $sql = str_replace('__PREFIX__', C('database.prefix'), $sql); // 替换前缀
         $this->initConnect($master);
         if (!$this->linkID) {
             return false;
         }
 
+        $master && $sql = '/*master*/'.$sql;
         // 记录SQL语句
         $this->queryStr = $sql;
         if ($bind) {
@@ -380,23 +380,26 @@ abstract class Connection
             // 执行查询
             $this->PDOStatement->execute();
             // 调试结束
-            $this->debug(false, '', $master);
+            $this->debug(false);
             // 返回结果集
             return $this->getResult($pdo, $procedure);
         } catch (\PDOException $e) {
             if ($this->isBreak($e)) {
                 return $this->close()->query($sql, $bind, $master, $pdo);
             }
+            echo '错误语句:'. $sql;
             throw new PDOException($e, $this->config, $this->getLastsql());
         } catch (\Throwable $e) {
             if ($this->isBreak($e)) {
                 return $this->close()->query($sql, $bind, $master, $pdo);
             }
+	    echo '错误语句:'. $sql;
             throw $e;
         } catch (\Exception $e) {
             if ($this->isBreak($e)) {
                 return $this->close()->query($sql, $bind, $master, $pdo);
             }
+	    echo '错误语句:'. $sql;
             throw $e;
         }
     }
@@ -404,15 +407,15 @@ abstract class Connection
     /**
      * 执行语句
      * @access public
-     * @param  string        $sql sql指令
-     * @param  array         $bind 参数绑定
-     * @param  Query         $query 查询对象
+     * @param string        $sql sql指令
+     * @param array         $bind 参数绑定
      * @return int
      * @throws PDOException
      * @throws \Exception
      */
-    public function execute($sql, $bind = [], Query $query = null)
+    public function execute($sql, $bind = [])
     {
+        $sql = str_replace('__PREFIX__', C('database.prefix'), $sql); // 替换前缀
         $this->initConnect(true);
         if (!$this->linkID) {
             return false;
@@ -448,28 +451,27 @@ abstract class Connection
             // 执行语句
             $this->PDOStatement->execute();
             // 调试结束
-            $this->debug(false, '', true);
-
-            if ($query && !empty($this->config['deploy']) && !empty($this->config['read_master'])) {
-                $query->readMaster();
-            }
+            $this->debug(false);
 
             $this->numRows = $this->PDOStatement->rowCount();
             return $this->numRows;
         } catch (\PDOException $e) {
             if ($this->isBreak($e)) {
-                return $this->close()->execute($sql, $bind, $query);
+                return $this->close()->execute($sql, $bind);
             }
+            echo '错误语句:'. $sql;
             throw new PDOException($e, $this->config, $this->getLastsql());
         } catch (\Throwable $e) {
             if ($this->isBreak($e)) {
-                return $this->close()->execute($sql, $bind, $query);
+                return $this->close()->execute($sql, $bind);
             }
+	    echo '错误语句:'. $sql;
             throw $e;
         } catch (\Exception $e) {
             if ($this->isBreak($e)) {
-                return $this->close()->execute($sql, $bind, $query);
+                return $this->close()->execute($sql, $bind);
             }
+	    echo '错误语句:'. $sql;
             throw $e;
         }
     }
@@ -751,7 +753,7 @@ abstract class Connection
      * @param array $sqlArray SQL批处理指令
      * @return boolean
      */
-    public function batchQuery($sqlArray = [], $bind = [], Query $query = null)
+    public function batchQuery($sqlArray = [], $bind = [])
     {
         if (!is_array($sqlArray)) {
             return false;
@@ -760,7 +762,7 @@ abstract class Connection
         $this->startTrans();
         try {
             foreach ($sqlArray as $sql) {
-                $this->execute($sql, $bind, $query);
+                $this->execute($sql, $bind);
             }
             // 提交事务
             $this->commit();
@@ -830,7 +832,6 @@ abstract class Connection
             'SSL connection has been closed unexpectedly',
             'Error writing data to the connection',
             'Resource deadlock avoided',
-            'failed with errno',
         ];
 
         $error = $e->getMessage();
@@ -911,10 +912,9 @@ abstract class Connection
      * @access protected
      * @param boolean $start 调试开始标记 true 开始 false 结束
      * @param string  $sql 执行的SQL语句 留空自动获取
-     * @param boolean $master 主从标记
      * @return void
      */
-    protected function debug($start, $sql = '', $master = false)
+    protected function debug($start, $sql = '')
     {
         if (!empty($this->config['debug'])) {
             // 开启数据库调试模式
@@ -931,7 +931,7 @@ abstract class Connection
                     $result = $this->getExplain($sql);
                 }
                 // SQL监听
-                $this->trigger($sql, $runtime, $result, $master);
+                $this->trigger($sql, $runtime, $result);
             }
         }
     }
@@ -953,27 +953,19 @@ abstract class Connection
      * @param string    $sql SQL语句
      * @param float     $runtime SQL运行时间
      * @param mixed     $explain SQL分析
-     * @param  bool     $master 主从标记
-     * @return void
+     * @return bool
      */
-    protected function trigger($sql, $runtime, $explain = [], $master = false)
+    protected function trigger($sql, $runtime, $explain = [])
     {
         if (!empty(self::$event)) {
             foreach (self::$event as $callback) {
                 if (is_callable($callback)) {
-                    call_user_func_array($callback, [$sql, $runtime, $explain, $master]);
+                    call_user_func_array($callback, [$sql, $runtime, $explain]);
                 }
             }
         } else {
             // 未注册监听则记录到日志中
-            if ($this->config['deploy']) {
-                // 分布式记录当前操作的主从
-                $master = $master ? 'master|' : 'slave|';
-            } else {
-                $master = '';
-            }
-
-            Log::record('[ SQL ] ' . $sql . ' [ ' . $master . 'RunTime:' . $runtime . 's ]', 'sql');
+            Log::record('[ SQL ] ' . $sql . ' [ RunTime:' . $runtime . 's ]', 'sql');
             if (!empty($explain)) {
                 Log::record('[ EXPLAIN : ' . var_export($explain, true) . ' ]', 'sql');
             }
